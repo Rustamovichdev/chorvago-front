@@ -13,7 +13,7 @@ function AnimalCard({ title, count, icon: Icon, isActive, onClick, }: Props) {
   return (
     <button
       onClick={onClick}
-        className={`relative flex cursor-pointer flex-col items-start rounded-xl border-2 p-4  text-left transition-colors duration-300 ${isActive ? "border-[#166534] bg-blue-200" : "border-gray-200 bg-white hover:border-gray-300"
+        className={`relative flex cursor-pointer flex-col items-start rounded-xl border-2 p-4  text-left transition-colors duration-300 ${isActive ? "border-[#166534] bg-white ":"border-gray-200 bg-white hover:border-gray-300"
       }`}
     >
       {isActive && (
