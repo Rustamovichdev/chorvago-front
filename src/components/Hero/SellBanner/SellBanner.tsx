@@ -13,7 +13,7 @@ function SellBanner() {
                 </p>
             </div>
 
-            <div className="flex min-w-0 items-center gap-6">
+            <div className="flex min-w-0 items-center gap-6 lg:flex-1">
                 <SellSteps />
                 <button
                     type="button"

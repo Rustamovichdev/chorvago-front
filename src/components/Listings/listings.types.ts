@@ -1,15 +1,20 @@
 export type Listing = {
     id: number;
     image: string;
-    badge: string;          // "Vaksina qilingan"
-    photoCount: number;     // 4
-    category: string;       // "Mol va Sigir"
-    meta: string;           // "2-qorin bolasi bilan" (tur yonidagi qisqa ma'lumot)
+    badge: string;
+    photoCount: number;
+    category: string;
+    meta: string;
     title: string;
-    price: number;          // 18500000
-    priceNote?: string;     // "o'lchov bo'yicha" kabi qo'shimcha (ixtiyoriy)
+    price: number;
+    priceNote?: string;
     description: string;
-    location: string;       // "Toshkent vil., Bo'stonliq"
-    postedAt: string;       // "Bugun 11:30"
-    phone: string;          // "+998 90 *** ** 67"
+    location: string;
+    postedAt: string;
+    phone: string;
+
+    categoryId: string;
+    breedId: string;
+    regionId: string;
+    views: number;
 };
